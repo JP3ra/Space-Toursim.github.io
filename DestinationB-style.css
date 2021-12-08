@@ -1,0 +1,347 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 900px;
+    
+    overflow-x: hidden;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 900px;
+    
+   
+    
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    left: 55px;
+    top: 65px;
+}
+
+.header-line{
+    width: 473px;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    position: relative;
+    right: 280px;
+    top: 25px;
+
+}
+
+.nav-bar{
+    width: 830px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    position: relative;
+    left: 650px;
+    bottom: 40px;
+}
+
+.Home-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    position: relative;
+    right: 38px;
+    left: 104px;
+    top: 37px;
+}
+.Home-link:hover{
+    text-decoration: none;
+    border-color:grey;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+}
+.Home-link:active{
+    text-decoration: none;
+    border-color:white;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+}
+
+.Destination-link{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    word-spacing: 2.7px;
+    letter-spacing: 2.7px;
+    position: relative;
+    right: 38px;
+    left: 210px;
+    top: 17px;
+    text-decoration: none;
+    border-color: white;
+    padding: 37px;
+    border-bottom-style:solid;
+    
+    
+
+
+}
+
+.Crew-link{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    position: relative;
+    right: 38px;
+    left: 480px;
+    bottom: 2px;
+    text-decoration: none;
+}
+.Crew-link:hover{
+    text-decoration: none;
+    border-color:grey;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+}
+.Crew-link:active{
+    text-decoration: none;
+    border-color:white;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+}
+
+
+.Technology-link{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    position: relative;
+    right: 38px;
+    left: 620px;
+    bottom: 21px;
+    text-decoration: none;
+}
+
+.Technology-link:hover{
+    text-decoration: none;
+    border-color:grey;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+}
+.Technology-link:active{
+    text-decoration: none;
+    border-color:white;
+    padding-bottom: 37px;
+    border-bottom-style: solid;
+
+}
+
+.heading1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 2.7px;
+    width: 382px;
+    height: 34px;
+    position: relative;
+    left: 194.4px;
+    top: 10px;
+}
+
+.mars-image{
+    width: 425px;
+    height: 425px;
+    position: relative;
+    top: 45px;
+    left: 90px;
+}
+
+.main-links{
+    position: relative;
+    bottom: 370px;
+    width: 445px;
+}
+
+.moon-link{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    left: 820px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    
+}
+.moon-link:hover{
+    text-decoration: none;
+    padding-bottom: 11px;
+    border-color: grey;
+    border-bottom-style: solid;
+}
+
+.moon-link:active{
+    text-decoration: none;
+    padding-bottom: bottom;
+    border-color: white;
+    border-bottom-style: solid;
+    color: white;
+}
+
+.mars-link{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    bottom: 20px;
+    left: 890px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-color: white;
+    border-bottom-style: solid;
+}
+
+
+
+.europa-link{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    bottom: 40px;
+    left: 960px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+}
+
+.europa-link:hover{
+    text-decoration: none;
+    padding-bottom: 11px;
+    border-color: grey;
+    border-bottom-style: solid;
+}
+
+.europa-link:active{
+    text-decoration: none;
+    padding-bottom: bottom;
+    border-color: white;
+    border-bottom-style: solid;
+    color: white;
+}
+
+.titan-link{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    bottom: 60px;
+    left: 1030px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+}
+.titan-link:hover{
+    text-decoration: none;
+    padding-bottom: 11px;
+    border-color: grey;
+    border-bottom-style: solid;
+}
+
+.titan-link:active{
+    text-decoration: none;
+    padding-bottom: bottom;
+    border-color: white;
+    border-bottom-style: solid;
+    color: white;
+}
+
+.heading2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 115px;
+    position: relative;
+    bottom: 500px;
+    left: 850px;
+    font-family: 'Bellefair', serif;
+    color: white;
+    height: 115px;
+    width: 333px;
+}
+
+.main-para1{
+    position: relative;
+    bottom: 570px;
+    left: 860px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.bottom-1{
+    width: 445px;
+    position: relative;
+    bottom: 600px;
+}
+
+.main-line{
+    width: 444px;
+    height: 1px;
+    color: #383B4B;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    position: relative;
+    left: 860px;
+    top: 70px;
+}
+
+.sub-heading1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    color: white;
+    position: relative;
+    left: 860px;
+    top:80px;
+}
+
+.sub-heading2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    color: white;
+    position: relative;
+    left: 1100px;
+    top: 50px;
+}
+
+.sub-text1{
+    font-family: 'Bellefair', serif;
+    font-size: 28PX;
+    color: white;
+    position: relative;
+    left: 860px;
+    top: 60px;
+
+}
+
+.sub-text2{
+    font-family: 'Bellefair', serif;
+    font-size: 28PX;
+    color: white;
+    position: relative;
+    left: 1100px;
+}
+
